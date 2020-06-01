@@ -1,7 +1,66 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "GabeStore";
 }
 
-<div class="text-center">
-    <p><a asp-action="Login" asp-controller="Home">Тест</a></p>
-</div>
+    <head>
+
+        <link rel="stylesheet" href="~/css/MainPage.css">
+    </head>
+
+
+
+<body>
+
+
+    <header>
+
+        <div class="navigation">
+            <div class="logo">
+                <img src="~/img/Logo.png" alt="" class="logotype">
+            </div>
+
+            <div class="nav-menu">
+                <ul class="menu">
+                    <li class="nav-item"><a href="#" class="nav-link">Оплата</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Гарантии</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">О Нас</a></li>
+                </ul>
+            </div>
+
+            <div class="search-block">
+                <div class="searsh">
+                    <input type="text" class="search-form" placeholder="Поиск">
+                    <a href="#" class="search-btn"><i class="fas fa-search">Найти</i></a>
+                </div>
+            </div>
+
+            <div class="personal-item">
+                <div class="nav-menu2">
+                    <ul class="menu2">
+                        <li class="nav-item2"><a href="#" class="nav-link">Вход</a></li>
+                        <li class="nav-item2"><a href="#" class="nav-link">Корзина</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-information">
+            <div class="text-inform">
+                <h1>The new <strong>990</strong></h1>
+                <p class="tagline">БЛА БЛА БЛА</p>
+                <div class="inform-link">
+                    <div class="inform-btn read">Читать далее</div>
+                    <div class="inform-btn shop">Купить сейчас</div>
+                </div>
+            </div>
+
+            <div class="photo-model">
+                <img src="~/img/model.png" alt="">
+            </div>
+        </div>
+
+
+
+    </header>
+
+    </body>

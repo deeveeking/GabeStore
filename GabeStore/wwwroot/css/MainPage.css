@@ -1,0 +1,245 @@
+﻿body {
+
+
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+/*====================Style for navigation======================*/
+
+.navigation {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, rgb(0, 67, 65), rgba(23, 91, 60, 0.78), rgb(0, 104, 57));
+}
+
+.logo {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    height:10%;
+}
+
+.logotype {
+    max-width: 60px;
+    margin-left: 50%;
+}
+
+.nav-menu {
+    width: 25%;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+}
+
+.nav-menu2 {
+    width: 15%;
+}
+
+.menu2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+.nav-item2 {
+    padding: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 16px;
+    transition: .3s;
+    font-weight: bold;
+}
+
+.nav-item:hover {
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 40px #2196f3, 0 0 40px #2196f3, 0 0 40px #2196f3;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.nav-item2:hover {
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 40px #2196f3, 0 0 40px #2196f3, 0 0 40px #2196f3;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.search-block {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searsh {
+    display: flex;
+    background-color: #000;
+    border: 2px solid #255784;
+    border-radius: 30px;
+    width: 50%;
+    z-index: 1;
+}
+
+    .searsh:hover {
+        color: #255784;
+        box-shadow: 0 0 40px #2196f3, 0 0 40px #2196f3, 0 0 40px #2196f3;
+        transition: 0.2s;
+    }
+
+.search-form {
+    padding-left: 5%;
+    width: 90%;
+    height: 25px;
+    z-index: 10;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    color: #000;
+}
+
+.search-btn {
+    color: #fff;
+    font-size: 13px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.personal-item {
+    width: 15%;
+}
+
+.auth {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+
+/*=====================Style for main-information===============*/
+.main-information {
+    position: absolute;
+    top: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60%;
+    width: 100%;
+}
+
+.text-inform h1 {
+    color: #000;
+    font-size: 70px;
+    margin: 0;
+    padding: 0;
+}
+
+.text-inform strong {
+    color: #e01533;
+    text-decoration: underline;
+}
+
+.tagline {
+    color: #6f6f6f;
+    font-size: 20px;
+    margin: 10px 0;
+    padding-left:15px;
+}
+
+.inform-link {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    padding-left:15px;
+}
+
+.inform-btn {
+    border: 2px solid #255784;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 3px 15px;
+    transition: .3s;
+}
+
+.read {
+    color: #255784;
+}
+
+    .read:hover {
+        color: #255784;
+        background: #2196f3;
+        box-shadow: 0 0 40px #2196f3, 0 0 40px #2196f3, 0 0 40px #2196f3;
+        border-radius: 10px;
+        transition: 0.2s;
+    }
+
+.shop {
+    color: #255784;
+}
+
+    .shop:hover {
+        color: #255784;
+        background: #2196f3;
+        box-shadow: 0 0 40px #2196f3, 0 0 40px #2196f3, 0 0 40px #2196f3;
+        border-radius: 10px;
+        transition: 0.2s;
+    }
+
+/*=====================Style for social=========================*/
+
+
+.find a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e01533;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: .3s;
+}
+
+    .find a:hover {
+        color: #6f6f6f;
+    }
+
+.find i {
+    padding: 0 5px;
+    font-size: 20px;
+    margin-top: -5px;
+    animation: place 1s infinite;
+    animation-timing-function: linear;
+}
