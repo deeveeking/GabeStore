@@ -77,6 +77,16 @@
     border-radius: 10px;
 }
 
+.form .inputBox input[type = "button"] {
+    background: #E0FFFF;
+    color: #000;
+    border: none;
+    font-weight: 900;
+    max-width: 110px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
 .form p {
     color: #eee;
 }

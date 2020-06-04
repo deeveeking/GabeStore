@@ -15,7 +15,7 @@
     <div class="container">
         <div class="form">
             <h2>Регистрация</h2>
-            <form>
+            <form asp-action="Register" asp-controller="Account" asp-anti-forgery="true">
                 <div class="inputBox">
                     <input type="text" placeholder="Имя">
                 </div>
@@ -26,17 +26,17 @@
                     <input type="" placeholder="Е-мейл">
                 </div>
                 <div class="inputBox">
-                    <input type="" placeholder="Номер телефона">
-                </div>
-                <div class="inputBox">
                     <input type="password" placeholder="Пароль">
                 </div>
                 <div class="inputBox">
+                    <input type="password" placeholder="Подтвердите пароль">
+                </div>
+                <div class="inputBox">
                     <div class="neonbtn">
-                         <input type="submit" value="Зарегестрироваться">
+                        <input type="submit" value="Зарегестрироваться">
                     </div>
                 </div>
-                <p>Есть аккаунт? <a href="#">Нажмите сюда</a></p>
+                <p>Есть аккаунт? <a asp-action="Login" asp-controller="Account">Нажмите сюда</a></p>
             </form>
         </div>
     </div>
