@@ -9,7 +9,6 @@ namespace GabeStore.Models
     {
         public int Id { get; set; }
         public string DeveloperCompanyName { get; set; }
-        public string RealeseDate { get; set; }
         public string CountryDeveloper { get; set; }
     }
 }
