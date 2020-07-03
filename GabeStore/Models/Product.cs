@@ -11,7 +11,6 @@ namespace GabeStore.Models
         public string Name { get; set; }
         public string Price { get; set; }
         public string ImportPrice { get; set; }
-        public string GameKey { get; set; }
         public int GameCategoryId { get; set; }
         public Category Category { get; set; }
         public int DeveloperCopanyId { get; set; }
